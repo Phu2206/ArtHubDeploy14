@@ -173,6 +173,7 @@ public class AccountController {
         accountResponseDTO.setImage(account.getImage());
         accountResponseDTO.setUsername(account.getUsername());
         accountResponseDTO.setAddress(account.getAddress());
+        accountResponseDTO.setBio(account.getBio());
         accountResponseDTO.setLastname(account.getLastname());
         accountResponseDTO.setFirstname(account.getFirstname());
         accountResponseDTO.setEmail(account.getEmail());
@@ -182,6 +183,8 @@ public class AccountController {
         accountResponseDTO.setPassword(account.getPassword());
         accountResponseDTO.setToken(account.getToken());
         accountResponseDTO.setIsPremium(account.getIsPremium());
+        accountResponseDTO.setPhone(account.getPhone());
+        accountResponseDTO.setIsActive(account.getIsActive());
         return accountResponseDTO;
     }
 
